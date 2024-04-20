@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Convertor</title>
+</head>
+<body>
+
+    <header>
+        <h1>Temperature Convertor</h1>
+    </header>
+
+    <section id="container">
+        <form id="formDiv" method="post">
+            <fieldset>
+                <legend>Select an Option: </legend>
+
+                <label for="option">Celsius to Fahrenheit</label>
+                <input type="radio" name="option" id="option1" checked>
+
+                <label for="option"> Fahrenheit to Celsius </label>
+                <input type="radio" name="option" id="option2">
+            </fieldset>
+        </form>
+
+        <div id="userInputDiv">
+            <input type="number" name="temperaturaTexto" id="userInput" placeholder="ºT">
+            <input type="button" value="Convert" id="userInputBtn" onclick="converter()">
+
+        </div>
+
+        <div id="resultadoDiv">
+
+        </div>
+    </section>
+
+    <footer>
+        <p> <a href="http://www.github.com/kanishkg13">Kanishk Gupta</a></p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
