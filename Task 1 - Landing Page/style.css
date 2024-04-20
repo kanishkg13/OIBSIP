@@ -1,0 +1,447 @@
+/* Navbar */
+.container-fluid{
+    padding: 1% 5% 1% 2%;
+    background-color: black;
+}
+
+.navbar{
+    padding: 0 0 1rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* Intro */
+
+#intro{
+    background-color: black;
+    padding: 5% 10%;
+}
+
+.force-img{
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.first-para{
+    margin-bottom: 5%;
+}
+
+.fullform{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: rgb(158, 156, 156);
+}
+
+@media (max-width: 530px) {
+    .fullform{
+        font-size: 200%;
+    } 
+ }
+
+.firstletter{
+    color: rgb(180, 241, 119);
+    width: 300px;
+}
+
+.f2{
+    margin-right: 1.5em;
+    margin-left: 0.5em;
+}
+
+/* Who are we */
+
+.who-are-we{
+    padding: 5% 10%;
+}
+
+.who-are-we-heading{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    text-align: center;
+    font-size:2.5rem;
+    color: black;
+}
+
+
+.who-are-we-para{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+    margin: 2% 5%;
+}
+
+/* What we do */
+.what-we-do{
+    padding: 5% 10%;
+    background-color: black;
+}
+
+.what-we-do-heading{
+    color: whitesmoke;
+}
+
+
+.what-we-do-para{
+    color: rgb(141, 139, 139);
+    text-align: center;
+}
+
+/* Why join */
+
+.why-join{
+    background-color: white;
+    padding: 5% 5% 2% 5%;
+    text-align: center;
+}
+
+.why-join-box{
+    margin-top: 2%;
+    padding: 3%;
+}
+
+.icon{
+    color: rgb(34, 33, 33);
+    margin-bottom: 3%;
+}
+
+.icon:hover{
+    color: rgb(148, 148, 148);
+}
+
+/* Code of Conduct */
+
+.text-sm{
+    text-align: left;
+}
+
+/* Hall of fame */
+
+.hall-of-fame{
+    position: relative;
+    height: max-content;
+}
+
+.slide{
+    padding: 5% 5%;
+    text-align: center;
+}
+.carousel-item{
+  height: 60vh;
+}
+/* Contact Us */
+
+#contact-us{
+  width: 100vw;
+  padding-top: 2%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+
+.fa-2x:hover{
+  color: grey;
+}
+.social-icon{
+    color: rgb(34, 33, 33);
+    text-decoration: none;
+    margin: 20px 10px;
+}
+
+/* Team */
+
+.container
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+#team{
+    background-color: black;
+}
+
+
+.a3{
+  background-color: black;
+  width: 100%;
+}
+hr {
+  height: 1px;
+  width: 100%;
+  border: none;
+  background-color: white;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container .card{
+  position: relative;
+  min-width: 320px;
+  height: 400px;}
+  
+body{
+width: 100vw;
+overflow-x: hidden;
+}
+.card{
+  background: white;
+  width: 250px;
+  height: 100px;
+  margin: 30px 20px 30px 20px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 5px 5px rgb(210, 210, 210);
+  font-family: sans-serif;
+  padding: 10px;
+
+}
+
+.card-image{
+  height: 300px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card-1{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2Fdirector.jpg&w=640&q=75);
+}
+.card-2{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2Fvikram.jpg&w=640&q=75);
+}
+.card-3{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2Fishitavaidya.jpg&w=640&q=75);
+}
+.card h2{
+padding: 10px;
+}
+.card p{
+  padding: 10px;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.card:hover{
+  background-color: rgb(62, 62, 62);
+  color: blanchedalmond;
+  cursor: pointer;
+  transform: scale(1.10);
+  transition: all 250ms ease-in-out;
+  transition-duration: 0.1s;
+}
+.a{
+  text-align: center;
+  color: azure;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+h4{
+  text-align: center;
+  font-size: 2.5rem;
+  color: skyblue;
+  font-family: sans-serif;
+}
+.card-4{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F3_Yash.jpg&w=640&q=75);
+}
+.card-5{
+
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F3_Raghav.jpg&w=640&q=75);
+}
+.card-6{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F3_Shweta.jpg&w=640&q=75);
+}
+.card-7{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F3_Shreya.jpg&w=640&q=75);
+}
+.card-8{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F3_Prashasti.jpg&w=640&q=75);
+}
+.card-9{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F3_Chandan.jpeg&w=640&q=75);
+}
+.card-10{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F3_Uttam.jpg&w=640&q=75);
+}
+.card-11{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2Fdesk.jpg&w=640&q=75);
+}
+.card-12{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F3_Siddhant.jpg&w=640&q=75);
+}
+.card-13{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2Fdesk.jpg&w=640&q=75);
+}
+.card-14{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2Fdesk.jpg&w=640&q=75);
+}
+.card-15{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F3_varun.jpg&w=640&q=75);
+}
+
+.aq{
+  background-color: white;
+  width: 100%;
+  height: 60px;
+}
+
+h3{
+  font-family: sans-serif;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 30px;
+}
+.a1{
+  padding-left: 10px;
+  margin-left: 10px;
+}
+p{
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+
+}
+h1{
+text-align: center;
+color: white;
+font-family: sans-serif;
+font-size: 60px;
+}
+
+.card-16{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Shubhi.jpg&w=640&q=75);
+
+}
+.card-17{
+background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Kavisha.jpg&w=640&q=75);
+}
+.card-18{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Vanshika.jpg&w=640&q=75);
+}
+.card-19{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Muskan.png&w=640&q=75);
+  }
+  .card-20{
+    background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2Fdp.jpeg&w=640&q=75);
+    }
+    .card-21{
+      background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Deepak.jpg&w=640&q=75);
+      }
+      .card-22{
+        background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Devang.png&w=640&q=75);
+        }
+        .card-23{
+          background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2Fdesk.jpg&w=640&q=75);
+          }
+          .card-24{
+            background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Kushagra.jpg&w=640&q=75);
+            }
+            .card-25{
+              background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Piyush.jpg&w=640&q=75);
+              }
+              .card-26{
+                background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Angesh.jpg&w=640&q=75);
+                }
+                .card-27{
+                  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Praveen.jpeg&w=640&q=75);
+                  }
+                  .card-28{
+                    background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Rishabh.jpeg&w=640&q=75);
+                    }
+                    .card-29{
+                      background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Shridhar.jpeg&w=640&q=75);
+                      }
+                      .card-30{
+                        background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Umang.jpg&w=640&q=75);
+                        }
+                        .card-31{
+                          background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F2_Siddharth.jpeg&w=640&q=75);
+                          }
+ .card-32{
+   background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Mitali.jpeg&w=640&q=75);
+ }         
+ .card-33{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Nikita.jpg&w=640&q=75);
+}  
+.card-34{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_ShubhiArora.jpg&w=640&q=75);
+}  
+.card-36{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Nimish.jpg&w=640&q=75);
+}  
+
+.card-38{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Aman.jpeg&w=640&q=75);
+}  
+.card-39{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_AnshulKumar.JPG&w=640&q=75);
+}  
+.card-40{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Shubham.jpg&w=640&q=75);
+}  
+.card-41{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Akshat_Mittal.JPG&w=640&q=75);
+}  
+.card-42{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Rohit_kumar_gupta.jpg&w=640&q=75);
+}  
+.card-43{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Sahil.jpg&w=640&q=75);
+}  
+.card-45{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_VanshSingh.jpg&w=640&q=75);
+}  
+.card-46{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_akshatkhosya.jpg&w=640&q=75);
+}  
+.card-47{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Varun.jpg&w=640&q=75);
+}  
+.card-48{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Priyankjeet.jpg&w=640&q=75);
+}  
+.card-49{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Divyansh%20Jindal.jpg&w=640&q=75);
+}  
+.card-50{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Pratham.jpg&w=640&q=75);
+}  
+.card-51{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_pankaj-singh-rana.png&w=640&q=75);
+}  
+.card-52{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Sayak.jpeg&w=640&q=75);
+}  
+.card-53{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Rishi.jpeg&w=640&q=75);
+}  
+.card-54{
+  background-image: url(https://www.forceiiitu.in/_next/image?url=%2Fimages%2F1_Deepak.jpg&w=640&q=75);
+} 
